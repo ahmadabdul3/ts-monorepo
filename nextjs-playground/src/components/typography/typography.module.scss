@@ -1,0 +1,27 @@
+@use '../../styles/utils.module';
+
+.textBasic {
+    display: block;
+    margin-top: 16px;
+    font-size: 18px;
+    width: '100%';
+}
+
+.textError {
+    color: var(--color-error);
+}
+
+.message {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.pageTitle {
+    display: block;
+    font-size: utils.toRem(32);
+}
+
+.pageSectionTitle {
+    display: block;
+    font-size: utils.toRem(28);
+}

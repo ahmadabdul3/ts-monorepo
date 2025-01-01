@@ -1,0 +1,35 @@
+.contentBox {
+    width: 400px;
+
+    &.debug {
+        border: 1px dashed var(--background-subtle);
+    }
+
+    &.bgPrimary {
+        background-color: var(--color-primary);
+    }
+
+    &.bgPrimaryAccentLight {
+        background-color: var(--color-primary-accent-light);
+    }
+
+    &.bgPrimaryAccentDark {
+        background-color: var(--color-primary-accent-dark);
+    }
+
+    &.bgSecondary {
+        background-color: var(--color-secondary);
+    }
+
+    &.bgSecondaryAccentLight {
+        background-color: var(--color-secondary-accent-light);
+    }
+
+    &.bgSecondaryAccentDark {
+        background-color: var(--color-secondary-accent-dark);
+    }
+}
+
+.contentBoxStandard {
+    padding: 48px;
+}

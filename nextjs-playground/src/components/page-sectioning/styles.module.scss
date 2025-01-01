@@ -1,0 +1,19 @@
+@use '../../styles/utils.module';
+
+.pageSection {
+    width: 100%;
+    padding: utils.toRem(40) 0;
+
+    &:first-child {
+        padding-top: utils.toRem(80);
+    }
+
+    &:last-child {
+        padding-bottom: utils.toRem(80);
+    }
+}
+
+.pageWidth {
+    padding: 0 utils.toRem(80);
+    width: 100%;
+}
