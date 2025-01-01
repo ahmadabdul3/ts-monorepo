@@ -1,10 +1,10 @@
 'use client'
 
-// import Image from "next/image";
-import styles from "./page.module.css";
-import { FormFieldContainer } from "@/components/form-fields/form-input";
-import { useFormEmailInput } from "@/components/form-fields/email-input";
-import { useFormPasswordInput } from "@/components/form-fields/password-input";
+// import Image from 'next/image';
+import styles from '../page.module.css';
+import { FormFieldContainer } from '@/components/form-fields/form-input';
+import { useFormEmailInput } from '@/components/form-fields/email-input';
+import { useFormPasswordInput } from '@/components/form-fields/password-input';
 import {
     // Button,
     ButtonPrimary,
@@ -12,7 +12,7 @@ import {
 } from '@/components/buttons';
 import { Color, ContentBox } from '@/components/content-box';
 import { useForm } from '@/components/form-fields/form';
-import { simulateAsync } from "@/util/async-simulator";
+import { simulateAsync } from '@/util/async-simulator';
 
 export default function Home() {
     const { emailInput, getEmailInputConfig } = useFormEmailInput();
